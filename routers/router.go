@@ -28,12 +28,6 @@ func init() {
 			),
 		),
 
-		beego.NSNamespace("/section",
-			beego.NSInclude(
-				&controllers.SectionController{},
-			),
-		),
-
 		beego.NSNamespace("/story",
 			beego.NSInclude(
 				&controllers.StoryController{},
